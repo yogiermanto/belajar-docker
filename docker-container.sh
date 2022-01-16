@@ -4,23 +4,23 @@ docker container ls -a
 docker container ls 
 #cek list container yang runiing saja
 
-docker container create --name container-name image-name:tag
+docker container create --name CONTAINER-NAME IMAGE-NAME:TAG
 #ex
 docker container create --name contohredis redis:latest
 #create continaer
 
-docker container start container-name/container-id
+docker container start CONTAINER-NAME/CONTAINER-ID
 #ex
 docker container start contohredis
 #running/start container
 
-docker container stop container-name/container-id
+docker container stop CONTAINER-NAME/CONTAINER-ID
 #ex
 docker container stop contohredis
 #stop container
 
 
-docker container rm container-name/container-id
+docker container rm CONTAINER-NAME/CONTAINER-ID
 #ex
 docker container rm contohredis
 #delete container
